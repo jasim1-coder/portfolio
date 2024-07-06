@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin:0px;
+    font-family: sans-serif;
+     /* background-color: #080808; */
+}
+.navbar{
+width: 100%;
+height: 100px;
+background-color: brown;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+justify-content: space-between;
+
+}
+.my-name{
+    width: 20%;
+    height: 100%;
+    font-size: 25px;
+    color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-items{
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    display: flex;
+}
+.navbar-items a{
+    color: antiquewhite;
+    text-decoration: none;
+}
